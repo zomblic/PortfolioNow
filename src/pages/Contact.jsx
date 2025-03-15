@@ -1,7 +1,7 @@
 import "./Contact.css";
 import githubLogo from '../assets/images/github.png';
 import instaLogo from '../assets/images/insta.png';
-import linkedinLogo from '../assets/images/Linkedin.png';
+import linkedinLogo from '../assets/images/linkedin.png';
 import facebookLogo from '../assets/images/facebook.png';
 import whatsappLogo from '../assets/images/WhatsApp.png';
 
