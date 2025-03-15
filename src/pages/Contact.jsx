@@ -1,7 +1,7 @@
 import "./Contact.css";
 import githubLogo from '../assets/images/github.png';
 import instaLogo from '../assets/images/insta.png';
-{\* import linkedinLogo from '../assets/images/linkedin.png'; */}
+import linkedinLogo from '../assets/images/linkedin.png';
 import facebookLogo from '../assets/images/facebook.png';
 import whatsappLogo from '../assets/images/WhatsApp.png';
 
@@ -41,7 +41,7 @@ export default function Contact() {
           <a href="https://binarypiano.com/" target="_blank" rel="noopener noreferrer">
             <img src={instaLogo} alt="Instagram" />
           </a>
-          {/* <a href="http://www.patience-is-a-virtue.org/" target="_blank" rel="noopener noreferrer">*/}
+          <a href="http://www.patience-is-a-virtue.org/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinLogo} alt="LinkedIn" />
           </a>
           <a href="https://theuselessweb.com/" target="_blank" rel="noopener noreferrer">
