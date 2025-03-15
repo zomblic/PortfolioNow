@@ -1,8 +1,15 @@
+import "./Home.css";
+
 export default function Home() {
   return (
-    <div>
-      <h1>You made it! Welcome!</h1>
-      <p>
+    <div className="container">
+      <h1 className="glitch" data-text="Welcome to Zomblic's World!">Welcome to Zomblic's World!        
+        </h1>
+        <br />
+        <br />
+        <br />
+      
+       <p>
         This is the very boring home of Zomblic.  
         <br />
         Here you can find information about Zomblic and their journey into the world of coding.
@@ -17,10 +24,6 @@ export default function Home() {
       <p>
         Happy coding!
       </p>
-
-
-
-
-      </div>
+    </div>
   );
-}  // End of Home.jsx
+}

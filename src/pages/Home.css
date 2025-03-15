@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #050505;
+  color: #0ff;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.container {
+  width: 80vw;
+  min-width: 600px;
+  max-width: 900px;
+  padding: 20px;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #f0f, 0 0 30px #ff00ff;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #f0f;
+  animation: glitch 500ms infinite alternate-reverse, flicker 1.5s infinite;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #0ff;
+  animation: flicker 2s infinite alternate;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, -2px); }
+  80% { transform: translate(2px, 2px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+h1::before, h1::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+}
+
+h1::before {
+  top: -3px;
+  left: -3px;
+  color: #ff0000;
+  animation: glitch 150ms infinite alternate-reverse;
+}
+
+h1::after {
+  top: 3px;
+  left: 3px;
+  color: #00ffff;
+  animation: glitch 150ms infinite alternate;
+}
