@@ -1,0 +1,125 @@
+/* Cyberpunk Contact Page & Projects Styles with Glitch Effects */
+
+body {
+  background-color: #0d0d0d;
+  color: #0ff;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.cyberpunk-container {
+  padding: 50px;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #ff00ff;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  position: relative;
+}
+
+.cyberpunk-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  animation: glitch 0.8s infinite alternate;
+}
+
+@keyframes glitch {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-2px) skewX(-5deg); }
+  40% { transform: translateX(2px) skewX(5deg); }
+  60% { transform: translateX(-2px) skewX(-5deg); }
+  80% { transform: translateX(2px) skewX(5deg); }
+  100% { transform: translateX(0); }
+}
+
+.cyberpunk-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+  filter: brightness(1.2) contrast(1.5) saturate(2);
+  animation: glitch 1s infinite alternate;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
+}
+
+.cyberpunk-form .input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.cyberpunk-form label {
+  display: block;
+  font-size: 1.2rem;
+  color: #0ff;
+}
+
+.cyberpunk-form input, .cyberpunk-form textarea {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: 2px solid #ff00ff;
+  color: #0ff;
+  outline: none;
+  box-shadow: 0 0 5px #ff00ff;
+  border-radius: 5px;
+}
+
+.cyberpunk-button {
+  background: #ff00ff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.cyberpunk-button:hover {
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.cyberpunk-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cyberpunk-links a {
+  text-decoration: none;
+  color: #0ff;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  transition: all 0.3s;
+  position: relative;
+  display: inline-block;
+  animation: glitch 1s infinite alternate;
+}
+
+.cyberpunk-links a::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgba(255, 0, 255, 0.3);
+  z-index: -1;
+  filter: blur(5px);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cyberpunk-links a:hover {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  color: #ff00ff;
+}
+
+.cyberpunk-links a:hover::before {
+  opacity: 1;
+}

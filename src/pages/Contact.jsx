@@ -1,47 +1,41 @@
+import "./Contact.css";
+
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>Feel free to reach out using the form below.</p>
-      
-      <form>
-        <div>
+    <div className="cyberpunk-container">
+      <h1 className="cyberpunk-title">Contact Page</h1>
+      <p className="cyberpunk-text">Feel free to reach out using the form below.</p>
+
+      <form className="cyberpunk-form">
+        <div className="input-group">
           <label>Name</label>
-          <input 
-            type="text" 
-            placeholder="Your Name"
-          />
+          <input type="text" placeholder="Your Name" />
         </div>
-        
-        <div>
+
+        <div className="input-group">
           <label>Email</label>
-          <input 
-            type="email" 
-            placeholder="Your Email"
-          />
+          <input type="email" placeholder="Your Email" />
         </div>
-        
-        <div>
+
+        <div className="input-group">
           <label>Message</label>
-          <textarea 
-            rows="4" 
-            placeholder="Your Message"
-          ></textarea>
+          <textarea rows="4" placeholder="Your Message"></textarea>
         </div>
-        
-        <button type="submit">
+
+        <button type="submit" className="cyberpunk-button">
           Send Message
         </button>
       </form>
-      
-      <div>
+
+      <div className="cyberpunk-links">
         <p>Links:</p>
         <ul>
-          <li><a href="#">Github</a></li>
-          <li><a href="#">FakeEmail</a></li>
-          <li><a href="#">FakeSocial</a></li>
-          <li><a href="#">Medium</a></li>
-          <li><a href="#">WordPress</a></li>
+          <a href="https://github.com/zomblic" target="_blank">Github</a>  
+          <a href="https://binarypiano.com/">Twitter</a>  
+          <a href="http://www.patience-is-a-virtue.org/">LinkedIn</a>  
+          <a href="https://theuselessweb.com/">Medium</a>  
+          <a href="https://zoomquilt.org/">Facebook</a>  
+          <a href="https://www.nyan.cat/index.php?cat=original">Extra </a>  
         </ul>
       </div>
     </div>

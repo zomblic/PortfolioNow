@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;700&display=swap");
+
+body {
+  background: radial-gradient(circle at center, #000000, #0d0d0d, #020202);
+  color: #0ff;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+/* Cyberpunk Container */
+.cyberpunk-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+}
+
+/* Glowing Title */
+.cyberpunk-title {
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #ff00ff;
+  animation: glitch 0.5s infinite alternate;
+}
+
+/* Cyberpunk Glitch Effect */
+@keyframes glitch {
+  0% { text-shadow: 2px 2px #ff00ff, -2px -2px #0ff; }
+  100% { text-shadow: -2px -2px #ff00ff, 2px 2px #0ff; }
+}
+
+/* Cyberpunk Text */
+.cyberpunk-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  text-shadow: 0 0 5px #00ffff;
+  padding: 10px;
+}
