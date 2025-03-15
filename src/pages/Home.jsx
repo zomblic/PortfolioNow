@@ -1,19 +1,26 @@
 export default function Home() {
   return (
     <div>
-      <h1>Well Then... you're here</h1>
+      <h1>You made it! Welcome!</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        This is the very boring home of Zomblic.  
+        <br />
+        Here you can find information about Zomblic and their journey into the world of coding.
+        <br />
+        Feel free to explore the other pages to learn more about Zomblic and their adventures.
       </p>
-    </div>
+
+      <p>
+        If you have any questions or comments, please feel free to reach out via the contact page.
+      </p>  
+
+      <p>
+        Happy coding!
+      </p>
+
+
+
+
+      </div>
   );
-}
+}  // End of Home.jsx

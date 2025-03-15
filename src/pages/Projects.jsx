@@ -1,6 +1,9 @@
 import MealMuseLogo from '../assets/images/MealMuseLogo.png';
 import car from '../assets/images/car.png';
 import employee from '../assets/images/employee.png';
+import weather from '../assets/images/weather.png';
+import placeholder from '../assets/images/placeholder.jpg';
+import generator from '../assets/images/generator.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Project.css";
 
@@ -31,7 +34,7 @@ const projects = [
     {
         title: "Read Me Generator",
         link: "https://github.com/zomblic/PICKME-README-GENERATOR",
-        image: "URL_TO_README_GENERATOR_SCREENSHOT",
+        image: generator,
         description: "A read me generator that helps you create project documentation effortlessly."
     },
     {
@@ -49,7 +52,7 @@ const projects = [
     {
         title: "WeatherMeNow",
         link: "https://github.com/zomblic/WeatherMeNow",
-        image: "URL_TO_WEATHERMENOW_SCREENSHOT",
+        image: weather,
         description: "A weather app that provides real-time weather updates for any city."
     },
     {
@@ -61,7 +64,7 @@ const projects = [
     {
         title: "Placeholder",
         link: "#",
-        image: "URL_TO_PLACEHOLDER_SCREENSHOT",
+        image: placeholder,
         description: "This is a placeholder project description."
     }
 ];

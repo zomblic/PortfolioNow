@@ -123,3 +123,13 @@ body {
 .cyberpunk-links a:hover::before {
   opacity: 1;
 }
+ul a img {
+  width: 50px; /* Adjust size */
+  height: auto;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+ul a img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px cyan);
+}

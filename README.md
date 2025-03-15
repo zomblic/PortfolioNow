@@ -14,7 +14,7 @@
 
   ## <span style="color:rgb(158, 66, 160);">Description</span>
 
-  [!Render](https://weatheringnow.onrender.com)
+  [!Render](m)
 
   
   Are you curious about your weather? Planning an amazing LARPing event, but need to know last minute forecast? Then this is the website for you! Five day forecast that is able to mostly accurately predict your weather!
@@ -40,7 +40,7 @@ Just type in the city, cross your fingers and see what weather is summoned!
 
   After setting up VScode and Node, navitage to your terminal and type in the code 'npm i'.
  
- Or... just click on this link: [https://weatheringnow.onrender.com](https://weatheringnow.onrender.com).
+ Or... just click on this link: 
 
 
 
@@ -69,6 +69,8 @@ In your terminal, the farthest out folder, meaning the folder that contains all 
     Co-Pilot, ChatGPT and Xpert for identifying debugging and slightly tweaking (not sure how to succesfully cite debugged code tho) as well as breaking down code, explaining it and over several examples.
     
     Once again calling on CHATGPT for taking my gibberish and creatintg and implementing and explain the cyberpunk css! I was at a loss at how to do it and they showed me!
+
+    Images generated using canva, Meal Muse logo by Alexis M.
 
     And Vs Code!
     
