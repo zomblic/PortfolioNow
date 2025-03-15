@@ -34,25 +34,24 @@ export default function Contact() {
       </form>
 
       <div className="cyberpunk-links">
-      <ul>
-  <a href="https://github.com/zomblic" target="_blank" rel="noopener noreferrer">
-    <img src={githubLogo} alt="GitHub" />
-  </a>  
-  <a href="https://binarypiano.com/" target="_blank" rel="noopener noreferrer">
-    <img src={instaLogo} alt="Instagram" />
-  </a>  
-  <a href="http://www.patience-is-a-virtue.org/" target="_blank" rel="noopener noreferrer">
-    <img src={linkedinLogo} alt="LinkedIn" />
-  </a>  
-  <a href="https://theuselessweb.com/" target="_blank" rel="noopener noreferrer">
-    <img src={facebookLogo} alt="Facebook" />
-  </a>  
-  <a href="https://zoomquilt.org/" target="_blank" rel="noopener noreferrer">
-    <img src={whatsappLogo} alt="WhatsApp" />
-  </a>  
-  <a href="https://www.nyan.cat/index.php?cat=original" target="_blank" rel="noopener noreferrer">Extra</a>  
-</ul>
-
+        <ul>
+          <a href="https://github.com/zomblic" target="_blank" rel="noopener noreferrer">
+            <img src={githubLogo} alt="GitHub" />
+          </a>
+          <a href="https://binarypiano.com/" target="_blank" rel="noopener noreferrer">
+            <img src={instaLogo} alt="Instagram" />
+          </a>
+          <a href="http://www.patience-is-a-virtue.org/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinLogo} alt="LinkedIn" />
+          </a>
+          <a href="https://theuselessweb.com/" target="_blank" rel="noopener noreferrer">
+            <img src={facebookLogo} alt="Facebook" />
+          </a>
+          <a href="https://zoomquilt.org/" target="_blank" rel="noopener noreferrer">
+            <img src={whatsappLogo} alt="WhatsApp" />
+          </a>
+          <a href="https://www.nyan.cat/index.php?cat=original" target="_blank" rel="noopener noreferrer">Extra</a>
+        </ul>
       </div>
     </div>
   );
