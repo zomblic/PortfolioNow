@@ -1,4 +1,4 @@
-# <span style="color:rgb(255, 0, 76);">WEATHER ME NOW</span>
+# <span style="color:rgb(255, 0, 76);"PORTFOLIO NOW</span>
 ![License: MIT](./utils/MITBADGE.svg)
 ##  <span style="color:rgb(0, 217, 255);">Table of Contents</span>
 - [Description](#description)
@@ -14,12 +14,10 @@
 
   ## <span style="color:rgb(158, 66, 160);">Description</span>
 
-  [!Render](m)
+  [!Render](https://zomblic.netlify.app/)
 
   
-  Are you curious about your weather? Planning an amazing LARPing event, but need to know last minute forecast? Then this is the website for you! Five day forecast that is able to mostly accurately predict your weather!
-
-Just type in the city, cross your fingers and see what weather is summoned!
+Welcome to my little corner of the world! Zomblic Headquarters! This is a portfolio that will eventually showcase all the better coding projects. 
 
 
   ## <span style="color:rgb(255, 0, 153);">License</span>
@@ -32,9 +30,9 @@ Just type in the city, cross your fingers and see what weather is summoned!
   ## <span style="color:rgb(255, 0, 255);">Install</span>
   Required tools: VS Code, Git Bash, (I'm assuming you already have github), Node (the most recent version).
 
-  Required Additional Tools: Npm, a Computer (which I'm assuming you already have), Render link.
+  Required Additional Tools: Npm, a Computer (which I'm assuming you already have), Netlify, ChatGPT
 
-  Required Dependencies: Vite, React, Knowledge of css, java react, the web, patience beyond compare. 
+  Required Dependencies: Vite, React, Knowledge of css, java react, the web, patience beyond compare, ChatGPT
 
   Optional Requirement: Knowledge of how not to get overwhelemed with creating css to align with your vision.
 
@@ -59,6 +57,8 @@ In your terminal, the farthest out folder, meaning the folder that contains all 
 
 
   ## <span style="color:rgb(225, 112, 112);">Credits</span>
+
+  OMG! CHATGPT WAS A ROCKSTAR FOR ME IN THIS PROJECT FOR THE CSS! WITHOUT THEM, THE CSS WOULD'VE BEEN MIGRIANE TRIGGERING MESS.
     To the bootcamp for providing the readme for the assignment,
 
     Classmates for forming study groups to problem solve and figure it out -- thanks to Nick D for helping with debugging, discussing and catching the syntax for the weather service!
@@ -68,7 +68,7 @@ In your terminal, the farthest out folder, meaning the folder that contains all 
 
     Co-Pilot, ChatGPT and Xpert for identifying debugging and slightly tweaking (not sure how to succesfully cite debugged code tho) as well as breaking down code, explaining it and over several examples.
     
-    Once again calling on CHATGPT for taking my gibberish and creatintg and implementing and explain the cyberpunk css! I was at a loss at how to do it and they showed me!
+    Once again calling on CHATGPT for taking my style idea and creatintg and implementing and explaining the css aspects I wasn't able to execute at all! I was at a loss at how to do it and they showed me! I was so afraid I'd have to learn how to use photostop and all!
 
     Images generated using canva, Meal Muse logo by Alexis M.
 
