@@ -44,7 +44,11 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-    </ul>
+      <li className="nav-item">
+        <a href="./src/resume.pdf" download="resume.pdf"> Resume </a>
+      
+    </li>
+    </ul >
   );
 }
 
