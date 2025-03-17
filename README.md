@@ -1,4 +1,6 @@
 # <span style="color:rgb(255, 0, 76);">PORTFOLIO NOW</span>
+![zomblichq](https://github.com/user-attachments/assets/9cee5157-bd22-43ab-91ab-5b3df06bd485)
+
 ![License: MIT](./utils/MITBADGE.svg)
 ##  <span style="color:rgb(0, 217, 255);">Table of Contents</span>
 - [Description](#description)
@@ -14,7 +16,7 @@
 
   ## <span style="color:rgb(158, 66, 160);">Description</span>
 
-  [!Render](https://zomblic.netlify.app/)
+  [!ZomblieHQ](https://zomblic.netlify.app/)
 
   
 Welcome to my little corner of the world! Zomblic Headquarters! This is a portfolio that will eventually showcase all the better coding projects. 
