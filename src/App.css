@@ -40,3 +40,72 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Default styles already defined in App.css */
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  #root {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .nav {
+    padding: 1em;
+  }
+
+  .nav-list {
+    text-align: center;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .accept-button,
+  .reject-button {
+    width: 100%;
+    padding: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+
+  .nav {
+    padding: 0.5em;
+  }
+
+  .nav-list {
+    gap: 0.3rem;
+  }
+}
