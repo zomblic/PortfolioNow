@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 //import Project from './pages/Project';
 import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
       },
     ],
   },
