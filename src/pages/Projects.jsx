@@ -21,6 +21,9 @@ export default function Projects() {
                                     <img src={project.image} alt={`${project.title} Screenshot`} className="img-fluid project-img" />
                                 </a>
                                 <p className="card-text mt-3">{project.description}</p>
+                                {project.repo && (
+                                    <a href={project.repo} className="btn btn-secondary m-2">View Repo</a>
+                                )}
                             </div>
                         </div>
                     </div>
@@ -35,23 +38,27 @@ const projects = [
         title: "Read Me Generator",
         link: "https://github.com/zomblic/PICKME-README-GENERATOR",
         image: generator,
+        repo: "https://github.com/zomblic/PICKME-README-GENERATOR",
         description: "A read me generator that helps you create project documentation effortlessly."
     },
     {
         title: "VROOM-VROOM",
         link: "https://github.com/zomblic/MAKING-VROOM-VROOMS",
         image: car,
+        repo: "https://github.com/zomblic/MAKING-VROOM-VROOMS",
         description: "A vehicle management system for tracking, adding, and updating vehicles."
     },
     {
         title: "GuessWho-EmployeeEdition",
         link: "https://github.com/zomblic/GuessWho-EmployeeEdition",
         image: employee,
-        description: "An employee tracker that helps manage and update employee records."
+        repo: "https://github.com/zomblic/GuessWho-EmployeeEdition/",
+        description: "A basic employee tracker that helps create, manage and update employee records."
     },
     {
         title: "WeatherMeNow",
-        link: "https://github.com/zomblic/WeatherMeNow",
+        link: "https://weatheringnow.onrender.com/",
+        repo: "https://github.com/zomblic/WeatherMeNow",
         image: weather,
         description: "A weather app that provides real-time weather updates for any city."
     },
@@ -59,12 +66,14 @@ const projects = [
         title: "MealMuse",
         link: "https://alexis-menendez.github.io/Project-1-Meal-Muse/",
         image: MealMuseLogo,
-        description: "A meal planner that allows you to search for recipes and organize meal plans."
+        repo: "https://alexis-menendez.github.io/Project-1-Meal-Muse/",
+        description: "A meal planner that allows you to create recipes and organize meal plans."
     },
     {
-        title: "Placeholder",
-        link: "#",
+        title: "Peoples",
+        link: " https://peoples.onrender.com",
         image: placeholder,
-        description: "This is a placeholder project description."
+        repo: "https://github.com/zomblic/Peoples",
+        description: "A candidate search using Github."
     }
 ];

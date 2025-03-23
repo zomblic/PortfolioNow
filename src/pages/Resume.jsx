@@ -19,7 +19,7 @@ export default function Resume() {
             </ul>
             <h2> Skills </h2>
             <ul>
-            <li> Still in progress? </li>
+            <li> VS Code </li>
             </ul>
             <a href="./src/resume.pdf" download="resume.pdf"> Download Resume </a>
         </section>
